@@ -1,0 +1,35 @@
+.instruction {
+  &__text {
+    line-height: 1.5;
+    margin: 0 0 20px 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+
+  &__mail {
+    transition: 300ms color;
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+
+  &__subheading {
+    font-size: var(--font-size-subheading);
+    font-weight: bold;
+    margin: 0 0 10px 0;
+  }
+
+  &__docs {
+    margin: 0 0 20px 0;
+  }
+
+  &__item {
+    margin: 0 0 10px 0;
+
+    &:last-child {
+      margin: 0;
+    }
+  }
+}
